@@ -1,6 +1,12 @@
 
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥…Çë
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¥…Çë8¬®µÂ1
 ]
-java:S1854";Remove this useless assignment to local variable "context".(Ğ÷™Ôùÿÿÿÿ8â€Ë´Â1
+java:S1854";Remove this useless assignment to local variable "context".(Ğ÷™Ôùÿÿÿÿ8±®µÂ1
 N
-java:S1481",Remove this unused "context" local variable.(Ğ÷™Ôùÿÿÿÿ8ã€Ë´Â1
+java:S1481",Remove this unused "context" local variable.(Ğ÷™Ôùÿÿÿÿ8³®µÂ1
+]
+java:S1128";Remove this unused import 'am.smartCode.spring.model.User'.(àÍÂíşÿÿÿÿ8´®µÂ1
+g
+java:S1128"JRemove this unused import 'am.smartCode.spring.repository.UserRepository'.(™»Ä8´®µÂ1
+`
+java:S1128"DRemove this unused import 'am.smartCode.spring.service.UserService'.(ˆ—›8µ®µÂ1

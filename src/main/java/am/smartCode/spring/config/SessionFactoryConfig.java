@@ -1,6 +1,7 @@
 package am.smartCode.spring.config;
 
 
+import am.smartCode.spring.model.User;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
@@ -26,7 +27,7 @@ public class SessionFactoryConfig {
     public LocalSessionFactoryBean sessionFactory() {
         var sessionFactory = new LocalSessionFactoryBean();
         sessionFactory.setDataSource(dataSource());
-        sessionFactory.setPackagesToScan("am.smartCode.lesson1.model");
+        sessionFactory.setAnnotatedClasses(User.class);
         sessionFactory.setHibernateProperties(hibernateProperties());
         return sessionFactory;
     }

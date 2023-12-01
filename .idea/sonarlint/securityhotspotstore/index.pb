@@ -17,3 +17,5 @@ j
 :src/main/java/am/smartCode/spring/service/UserService.java,2\7\27f34973133c4351efa00ee3fa3c2542f3660a20
 s
 Csrc/main/java/am/smartCode/spring/service/impl/UserServiceImpl.java,f\7\f7ff32596411951b337a9681414727dd92111721
+y
+Isrc/main/java/am/smartCode/spring/repository/impl/UserRepositoryImpl.java,0\d\0db3c18346985e5d78bb0eec995ae7cd95497b03
