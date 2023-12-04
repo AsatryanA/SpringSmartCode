@@ -12,7 +12,7 @@ import org.springframework.transaction.PlatformTransactionManager;
 import java.util.Properties;
 
 @Configuration
-public class SessionFactoryConfig {
+public class HibernateConfig {
     @Bean
     public DriverManagerDataSource dataSource() {
         var dataSource = new DriverManagerDataSource();

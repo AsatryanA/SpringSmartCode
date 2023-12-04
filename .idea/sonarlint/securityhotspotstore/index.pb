@@ -1,10 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-s
-Csrc/main/java/am/smartCode/lesson1/config/SessionFactoryConfig.java,0\b\0b67fd477d27bf90cef4ebb246d8c0edd9002b4c
-k
-;src/main/java/am/smartCode/lesson1/service/UserService.java,a\3\a3f5d27b1d5670f79bf382407f5f4413808634d7
 r
 Bsrc/main/java/am/smartCode/spring/config/SessionFactoryConfig.java,4\7\47fac560d4e7df78d9c43392842a335659dea914
 [
@@ -19,3 +15,5 @@ s
 Csrc/main/java/am/smartCode/spring/service/impl/UserServiceImpl.java,f\7\f7ff32596411951b337a9681414727dd92111721
 y
 Isrc/main/java/am/smartCode/spring/repository/impl/UserRepositoryImpl.java,0\d\0db3c18346985e5d78bb0eec995ae7cd95497b03
+m
+=src/main/java/am/smartCode/spring/config/HibernateConfig.java,e\3\e33b62b47c0cddaf529960f3ce56ac1c84cec501

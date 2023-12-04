@@ -7,15 +7,15 @@ import java.util.List;
 
 public interface UserRepository {
 
-    void create(User user);
+    User create(User user);
 
     void delete(Long id);
 
-    User getUserByEmail(String email);
+    User getByEmail(String email);
 
-    boolean update(User user, Long id);
+    void update(User user);
 
-    User getUserById(Long id);
+    User getById(Long id);
 
     List<User> getAll();
 
