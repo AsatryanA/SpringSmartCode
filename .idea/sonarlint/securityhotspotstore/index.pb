@@ -1,8 +1,6 @@
 
 7
 pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-r
-Bsrc/main/java/am/smartCode/spring/config/SessionFactoryConfig.java,4\7\47fac560d4e7df78d9c43392842a335659dea914
 [
 +src/main/java/am/smartCode/spring/Main.java,0\a\0a3241b5d95189398c894b0f27ff248c33de7f0c
 a
@@ -17,3 +15,17 @@ y
 Isrc/main/java/am/smartCode/spring/repository/impl/UserRepositoryImpl.java,0\d\0db3c18346985e5d78bb0eec995ae7cd95497b03
 m
 =src/main/java/am/smartCode/spring/config/HibernateConfig.java,e\3\e33b62b47c0cddaf529960f3ce56ac1c84cec501
+F
+webapp/WEB-INF/web.xml,1\7\17acf86fbbd0ea8e42ee5c9a7dff786e586719c8
+p
+@src/main/java/am/smartCode/spring/controller/UserController.java,4\a\4a50d83a6aa86514bd638ac7f0fad589538b4ef3
+O
+src/main/webapp/WEB-INF/web.xml,2\e\2e22b6edd746fa3dc40ad7276c87c8d87d72a392
+Y
+)src/main/webapp/secure/changePassword.jsp,3\5\35b05f2d51c8e35098983bf0928c301e031375f9
+T
+$src/main/webapp/WEB-INF/register.jsp,b\c\bc6e7ce0c6952cd2bae32618d60b1fb8ff345090
+I
+src/main/webapp/index.jsp,8\e\8e6d3b70c9f5b02570779b0441540d45eceb0ded
+L
+src/main/webapp/register.jsp,b\d\bde35d3876092f82f8efadc1a6675aaf6bd96946

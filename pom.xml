@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>am.smartCode</groupId>
   <artifactId>spring</artifactId>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
   <version>1.0-SNAPSHOT</version>
   <name>spring Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -48,6 +48,11 @@
     </dependency>
     <dependency>
       <groupId>org.springframework</groupId>
+      <artifactId>spring-webmvc</artifactId>
+      <version>5.3.29</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
       <artifactId>spring-orm</artifactId>
       <version>5.3.29</version>
     </dependency>
@@ -66,6 +71,12 @@
       <artifactId>spring-tx</artifactId>
       <version>5.3.29</version>
     </dependency>
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+
     <dependency>
       <groupId>org.springframework</groupId>
       <artifactId>spring-aop</artifactId>

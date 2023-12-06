@@ -44,6 +44,6 @@ public class UserRepositoryImpl implements UserRepository {
 
     @Override
     public List<User> getAll() {
-        return sessionFactory.getCurrentSession().createQuery("from User").list();
+        return sessionFactory.openSession().createQuery("from User").list();
     }
 }
