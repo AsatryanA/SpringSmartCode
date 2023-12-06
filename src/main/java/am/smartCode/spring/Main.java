@@ -1,5 +1,8 @@
 package am.smartCode.spring;
 
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
 
 import am.smartCode.spring.model.User;
 import am.smartCode.spring.repository.UserRepository;
@@ -14,8 +17,7 @@ import java.util.Set;
 import java.util.stream.Stream;
 
 public class Main {
-    public static void main(String[] args) {
-
+    public static void main(String[] args) throws JsonProcessingException {
 
 
     }
