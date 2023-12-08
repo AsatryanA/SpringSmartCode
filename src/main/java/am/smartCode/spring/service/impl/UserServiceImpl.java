@@ -32,18 +32,28 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    @Transactional(readOnly = true)
     public User getById(Long id) {
-
         return userRepository.getById(id);
-
+    }
+    @Transactional
+    public User update(User user){
+        return userRepository.update(user);
     }
 
     @Override
+    public User getByEmail(String email) {
+        return userRepository.getByEmail(email);
+    }
+
+    @Override
+    @Transactional
     public List<User> getAll() {
         return userRepository.getAll();
     }
 
     @Override
+    @Transactional
     public void delete(Long id) {
         userRepository.delete(id);
     }

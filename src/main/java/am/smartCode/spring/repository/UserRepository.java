@@ -13,7 +13,7 @@ public interface UserRepository {
 
     User getByEmail(String email);
 
-    void update(User user);
+    User update(User user);
 
     User getById(Long id);
 

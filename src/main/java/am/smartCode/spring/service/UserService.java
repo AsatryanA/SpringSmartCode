@@ -13,4 +13,6 @@ public interface UserService {
     List<User> getAll();
 
     void delete(Long id);
+    User update(User user);
+     User getByEmail(String email);
 }
